@@ -1,0 +1,21 @@
+.selected{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #F0283C;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: fit-content;
+}
+
+.not-selected{
+  display: flex;
+  align-items: center;
+  background-color: #484848;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: fit-content;
+}

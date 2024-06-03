@@ -1,0 +1,27 @@
+.list-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+}
+
+.list-label{
+  color: #fff;
+  padding: 20px 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  padding: 20px 0 0 20px;
+  background-color: #121212;
+}
+
+.movie-card{
+  height: auto;
+  max-width: calc(50% - 20px);
+}

@@ -1,0 +1,23 @@
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.poster{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.rating{
+  display: flex;
+  gap: 5px;
+  margin: 10px 0 0;
+}
+
+.rating-title{
+  color: #fff;
+}
+
+.rating-value{
+  color: #fff;
+}
